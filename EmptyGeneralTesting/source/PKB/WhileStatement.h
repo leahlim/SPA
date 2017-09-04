@@ -1,8 +1,9 @@
 #pragma once
 
 #include "StatementContainer.h"
+#include "Statement.h"
 
-class WhileStatement : public StatementContainer {
+class WhileStatement : public StatementContainer, public Statement {
 private:
 	Variable controlVar;
 public:

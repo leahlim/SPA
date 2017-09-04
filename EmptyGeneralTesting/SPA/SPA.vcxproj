@@ -13,7 +13,6 @@
   <ItemGroup>
     <ClCompile Include="..\source\DesignExtractor.cpp" />
     <ClCompile Include="..\source\Parser.cpp" />
-    <ClCompile Include="..\source\PKB.cpp" />
     <ClCompile Include="..\source\PKB\Expression.cpp" />
     <ClCompile Include="..\source\PKB\PKB.cpp" />
     <ClCompile Include="..\source\PKB\Procedure.cpp" />
@@ -24,7 +23,6 @@
     <ClCompile Include="..\source\TNode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\source\PKB.h" />
     <ClInclude Include="..\source\PKB\AssignStatement.h" />
     <ClInclude Include="..\source\PKB\Expression.h" />
     <ClInclude Include="..\source\PKB\PKB.h" />
