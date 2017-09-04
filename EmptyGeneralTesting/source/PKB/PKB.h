@@ -23,19 +23,24 @@ private:
 public:
 	PKB();
 	~PKB();
-	void addProcedure(Procedure proc);
-	void addVariable(Variable var);
-	void addStatement(Statement stmt);
+	void addProcedure(Procedure &proc);
+	void addVariable(Variable &var);
+	void addStatement(Statement &stmt);
 	/*
 	Add an assign statement to the PKB.
 	It should be guaranteed by the parser that the statement belong to some valid statement list.
 	*/
-	void addAssignStatement(AssignStatement stmt, bool endOfList);
+	void addAssignStatement(AssignStatement &stmt);
 	/*
 	Add WhileStatement stmt to the PKB.
 	Parser should guarantee stmt to be not null and have controlVar attribute filled up
 	*/
-	void addWhileStatement(WhileStatement stmt);
+	void addWhileStatement(WhileStatement &stmt);
+	/*
+	Signal to PKB a closing bracket i.e. remove top of currentStmtContainer
+	Return: true if possible, false if stack is empty i.e. extra closing bracket.
+	*/
+	bool endOfList();
 	//the ones below are for query selector
 	vector<int> follow(int stmtIndex);
 	vector<int> followBy(int stmtIndex);
