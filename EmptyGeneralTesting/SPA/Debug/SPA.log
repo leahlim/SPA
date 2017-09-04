@@ -1,6 +1,69 @@
-﻿  TNode.cpp
+﻿  StatementList.cpp
+  Statement.cpp
   PKB.cpp
-  Parser.cpp
-  DesignExtractor.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): error C2259: 'StatementContainer': cannot instantiate abstract class
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: due to following members:
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: 'void StatementContainer::addStatement(Statement)': is abstract
+  c:\users\le minh phuc\documents\spa\emptygeneraltesting\source\pkb\statementcontainer.h(15): note: see declaration of 'StatementContainer::addStatement'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,const StatementContainer&>(_Objty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Ty=StatementContainer,
+              _Objty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,const StatementContainer&>(_Objty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Ty=StatementContainer,
+              _Objty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const StatementContainer&>(std::allocator<_Ty> &,_Objty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<StatementContainer>,
+              _Ty=StatementContainer,
+              _Objty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const StatementContainer&>(std::allocator<_Ty> &,_Objty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<StatementContainer>,
+              _Ty=StatementContainer,
+              _Objty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\deque(1498): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,const StatementContainer&>(_Ty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Ty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\deque(1497): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,const StatementContainer&>(_Ty *,const StatementContainer &)' being compiled
+          with
+          [
+              _Ty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\deque(1494): note: while compiling class template member function 'void std::deque<_Ty,std::allocator<_Ty>>::push_back(const StatementContainer &)'
+          with
+          [
+              _Ty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stack(140): note: see reference to function template instantiation 'void std::deque<_Ty,std::allocator<_Ty>>::push_back(const StatementContainer &)' being compiled
+          with
+          [
+              _Ty=StatementContainer
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stack(21): note: see reference to class template instantiation 'std::deque<_Ty,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=StatementContainer
+          ]
+  c:\users\le minh phuc\documents\spa\emptygeneraltesting\source\pkb\pkb.h(22): note: see reference to class template instantiation 'std::stack<StatementContainer,std::deque<_Ty,std::allocator<_Ty>>>' being compiled
+          with
+          [
+              _Ty=StatementContainer
+          ]
   Generating Code...
-  SPA.vcxproj -> D:\NUS Sem 5\CS3201\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\SPA.lib
+  Compiling...
+  Variable.cpp
+  Procedure.cpp
+  Expression.cpp
+  Generating Code...

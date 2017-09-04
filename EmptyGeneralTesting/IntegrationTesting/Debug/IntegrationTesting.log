@@ -1,5 +1,5 @@
 ﻿  stdafx.cpp
   TestFrontEnd.cpp
-     Creating library D:\NUS Sem 5\CS3201\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\IntegrationTesting.lib and object D:\NUS Sem 5\CS3201\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\IntegrationTesting.exp
-  IntegrationTesting.vcxproj -> D:\NUS Sem 5\CS3201\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\IntegrationTesting.dll
-  IntegrationTesting.vcxproj -> D:\NUS Sem 5\CS3201\AutomaticProjectTesting_Aug2015_VS2015\AutomaticProjectTesting_Aug2015_VS2015\EmptyGeneralTesting\Debug\IntegrationTesting.pdb (Full PDB)
+     Creating library C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\IntegrationTesting.lib and object C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\IntegrationTesting.exp
+  IntegrationTesting.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\IntegrationTesting.dll
+  IntegrationTesting.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\IntegrationTesting.pdb (Full PDB)

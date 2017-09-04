@@ -6,14 +6,13 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTesting
 {		
-	TEST_CLASS(TestAST)
+	TEST_CLASS(PKB)
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(Trivial)
 		{
-			TNode T;
-			// TODO: Your test code here
+			Assert::AreEqual(1, 1);
 		}
 
 	};
