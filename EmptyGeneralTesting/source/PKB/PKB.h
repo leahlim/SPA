@@ -10,6 +10,7 @@ using namespace std;
 #include "Variable.h"
 #include "Expression.h"
 #include "WhileStatement.h"
+#include "StatementContainer.h"
 
 /*
 Represents a parsed SIMPLE program
@@ -19,7 +20,7 @@ private:
 	vector<Procedure> allProcedures;
 	vector<Variable> allVariables;
 	vector<Statement> allStatements;
-	stack<StatementContainer> currentStmtContainer;
+	stack<StatementContainer*> currentStmtContainer;
 public:
 	PKB();
 	~PKB();
