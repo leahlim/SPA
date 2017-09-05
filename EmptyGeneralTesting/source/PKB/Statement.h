@@ -1,4 +1,5 @@
 #pragma once
+#define DllExport __declspec( dllexport )
 #include <string>
 using namespace std;
 
@@ -9,7 +10,7 @@ Currently just a dummy Statement class implemented for the purpose of
 trying Unit Testing.
 Full implementation to be done later by Shermine.
 */
-class Statement {
+class DllExport Statement {
 protected:
 	int index;
 	string contentStatement;

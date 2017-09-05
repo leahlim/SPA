@@ -1,4 +1,5 @@
 #pragma once
+#define DllExport __declspec( dllexport )
 #include <string>
 #include <vector>
 using namespace std;
@@ -9,7 +10,7 @@ using namespace std;
 A simplified Variable class implement to try out Unit Testing.
 Full implementation to be completed later.
 */
-class Variable {
+class DllExport Variable {
 private:
 	int index;
 	string varName;

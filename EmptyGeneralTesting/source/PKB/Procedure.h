@@ -1,11 +1,12 @@
 #pragma once
+#define DllExport __declspec( dllexport )
 #include <string>
 #include <vector>
 using namespace std;
 #include "StatementContainer.h"
 #include "StatementList.h"
 
-class Procedure: public StatementContainer {
+class DllExport Procedure: public StatementContainer {
 private:
 	int index;
 	string procName;

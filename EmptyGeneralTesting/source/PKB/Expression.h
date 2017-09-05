@@ -1,4 +1,5 @@
 #pragma once
+#define DllExport __declspec( dllexport )
 #include <string>
 using namespace std;
 
@@ -7,7 +8,7 @@ using namespace std;
 /*
 This class represents a dummy expression
 */
-class Expression {
+class DllExport Expression {
 private:
 	string op;
 	Expression * leftExp;

@@ -1,9 +1,9 @@
 #pragma once
-
+#define DllExport __declspec( dllexport )
 #include "StatementContainer.h"
 #include "Statement.h"
 
-class WhileStatement : public StatementContainer, public Statement {
+class DllExport WhileStatement : public StatementContainer, public Statement {
 private:
 	Variable controlVar;
 public:
