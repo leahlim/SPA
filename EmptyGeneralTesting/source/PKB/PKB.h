@@ -1,7 +1,7 @@
 #pragma once
 // PKB_API functions as being imported from ...
 // defined with this macro as being exported.
-#define DllExport __declspec( dllexport )
+
 #include <vector>
 #include <stack>
 using namespace std;
@@ -17,7 +17,7 @@ using namespace std;
 /*
 Represents a parsed SIMPLE program
 */
-class DllExport PKB {
+class PKB {
 private:
 	vector<Procedure> allProcedures;
 	vector<Variable> allVariables;
@@ -25,7 +25,6 @@ private:
 	stack<StatementContainer*> currentStmtContainer;
 public:
 	PKB();
-	~PKB();
 	void addProcedure(Procedure &proc);
 	void addVariable(Variable &var);
 	void addStatement(Statement &stmt);

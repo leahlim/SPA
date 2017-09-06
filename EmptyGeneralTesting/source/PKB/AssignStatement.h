@@ -1,10 +1,9 @@
 #pragma once
-#define DllExport __declspec( dllexport )
 #include "Statement.h"
 #include "Variable.h"
 #include "Expression.h"
 
-class DllExport AssignStatement : public Statement {
+class AssignStatement : public Statement {
 private:
 	Variable modifiedVar;
 	vector<Variable> usedVar;

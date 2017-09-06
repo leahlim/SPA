@@ -10,6 +10,5 @@ private:
 	vector<Statement> statements;
 public:
 	StatementList();
-	~StatementList();
 	void addStatement(Statement &stmt);
 };

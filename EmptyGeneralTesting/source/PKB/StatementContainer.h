@@ -1,11 +1,10 @@
 #pragma once
-#define DllExport __declspec( dllexport )
 #include "Statement.h"
 /*
 An abstract interface representing any object that has at least 1 statement list
 To be implemented by the following class: Procedure, IfStatement, WhileStatement
 */
-class DllExport StatementContainer {
+class StatementContainer {
 public:
 	/*
 	Parameter: Statement stmt
