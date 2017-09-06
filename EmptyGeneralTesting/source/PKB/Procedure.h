@@ -12,6 +12,5 @@ private:
 	StatementList stmtLst;
 public:
 	Procedure(string name);
-	~Procedure();
 	void addStatement(Statement stmt);
 };

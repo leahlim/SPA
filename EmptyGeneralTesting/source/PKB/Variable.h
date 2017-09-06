@@ -18,7 +18,6 @@ private:
 public:
 	Variable();
 	Variable(int ind, string name);
-	~Variable();
 	void addModifyStmt(Statement stmt);
 	void addUseStmt(Statement stmt);
 };

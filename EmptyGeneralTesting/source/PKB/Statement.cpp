@@ -5,6 +5,6 @@ Statement::Statement(int i, string content) {
 	contentStatement = content;
 }
 
-void Statement::setStmtLst(StatementList stmtList) {
-	stmtLst = stmtList;
+void Statement::setStmtLst(StatementList &stmtList) {
+	stmtLst = &stmtList;
 }

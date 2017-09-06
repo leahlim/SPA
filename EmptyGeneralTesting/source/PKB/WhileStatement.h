@@ -1,5 +1,4 @@
 #pragma once
-
 #include "StatementContainer.h"
 #include "Statement.h"
 
@@ -8,7 +7,6 @@ private:
 	Variable controlVar;
 public:
 	WhileStatement();
-	~WhileStatement();
 	void addControlVar(Variable v);
 	void addStatement(Statement stmt);
 };

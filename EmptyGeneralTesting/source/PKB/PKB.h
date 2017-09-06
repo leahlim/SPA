@@ -1,4 +1,6 @@
 #pragma once
+// PKB_API functions as being imported from ...
+// defined with this macro as being exported.
 
 #include <vector>
 #include <stack>
@@ -10,6 +12,7 @@ using namespace std;
 #include "Variable.h"
 #include "Expression.h"
 #include "WhileStatement.h"
+#include "StatementContainer.h"
 
 /*
 Represents a parsed SIMPLE program
@@ -19,10 +22,9 @@ private:
 	vector<Procedure> allProcedures;
 	vector<Variable> allVariables;
 	vector<Statement> allStatements;
-	stack<StatementContainer> currentStmtContainer;
+	stack<StatementContainer*> currentStmtContainer;
 public:
 	PKB();
-	~PKB();
 	void addProcedure(Procedure &proc);
 	void addVariable(Variable &var);
 	void addStatement(Statement &stmt);

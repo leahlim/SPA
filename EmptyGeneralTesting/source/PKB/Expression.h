@@ -17,7 +17,6 @@ private:
 public:
 	Expression();
 	Expression(string ope);
-	~Expression();
 	void addLeftExp(Expression exp);
 	void addRightExp(Expression exp);
 	void addLeftVar(Variable var);

@@ -6,9 +6,14 @@ using namespace std;
 /*
 Represents a parsed SIMPLE program
 */
-void PKB::addProcedure(Procedure &proc) {
+
+PKB::PKB() {
+
+}
+
+void PKB::addProcedure(Procedure& proc) {
 	allProcedures.push_back(proc);
-	currentStmtContainer.push(proc);
+	currentStmtContainer.push(&proc);
 }
 
 void PKB::addVariable(Variable &var) {
@@ -24,7 +29,7 @@ Add AssignStatement stmt to the AST.
 */
 void PKB::addAssignStatement(AssignStatement &stmt) {
 	//currentStmtContainer stack guaranteed to be non-empty
-	StatementContainer * stmtContainer = &currentStmtContainer.top();
+	StatementContainer * stmtContainer = currentStmtContainer.top();
 	(*stmtContainer).addStatement(stmt);
 }
 
@@ -32,9 +37,9 @@ void PKB::addAssignStatement(AssignStatement &stmt) {
 Add WhileStatement stmt to the AST.
 */
 void PKB::addWhileStatement(WhileStatement &stmt) {
-	StatementContainer * stmtContainer = &currentStmtContainer.top();
+	StatementContainer * stmtContainer = currentStmtContainer.top();
 	(*stmtContainer).addStatement(stmt);
-	currentStmtContainer.push(stmt);
+	currentStmtContainer.push(&stmt);
 }
 
 /*

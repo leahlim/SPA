@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 using namespace std;
+
+class StatementList;
 #include "StatementList.h"
 /*
 Currently just a dummy Statement class implemented for the purpose of
@@ -11,10 +13,9 @@ class Statement {
 protected:
 	int index;
 	string contentStatement;
-	StatementList stmtLst;
+	StatementList * stmtLst;
 public:
 	Statement();
 	Statement(int i, string content);
-	~Statement();
-	void setStmtLst(StatementList stmtList);
+	void setStmtLst(StatementList &stmtList);
 };
