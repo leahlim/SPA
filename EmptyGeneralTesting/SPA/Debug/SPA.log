@@ -1,10 +1,12 @@
-﻿  Expression.cpp
-  Generating Code...
-  Compiling...
+﻿  TNode.cpp
   Variable.cpp
   StatementList.cpp
+  StatementContainer.cpp
   Statement.cpp
   Procedure.cpp
   PKB.cpp
+  Expression.cpp
+  Parser.cpp
+  DesignExtractor.cpp
   Generating Code...
   SPA.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\SPA.lib

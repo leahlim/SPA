@@ -4,7 +4,7 @@ using namespace std;
 #include "stdafx.h"
 #include <CppUnitTest.h>
 #include "TNode.h"
-#include "../source/PKB/PKB.h"
+#include "PKB.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -23,7 +23,7 @@ namespace UnitTesting
 				//Expected value:
 				expected[0],
 				//Actual value:
-				PKBTest.follows(1)[0],
+				PKBTest.follow(1)[0],
 				//Message:
 				L"Basic test failed",
 				//Line number - used if there is no PDB file:

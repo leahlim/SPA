@@ -20,7 +20,6 @@
     <ClCompile Include="..\source\PKB\StatementContainer.cpp" />
     <ClCompile Include="..\source\PKB\StatementList.cpp" />
     <ClCompile Include="..\source\PKB\Variable.cpp" />
-    <ClCompile Include="..\source\TNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\source\PKB\AssignStatement.h" />
@@ -32,7 +31,6 @@
     <ClInclude Include="..\source\PKB\StatementList.h" />
     <ClInclude Include="..\source\PKB\Variable.h" />
     <ClInclude Include="..\source\PKB\WhileStatement.h" />
-    <ClInclude Include="..\source\TNode.h" />
     <ClInclude Include="Parser.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
