@@ -11,13 +11,14 @@ Full implementation to be completed later.
 */
 class Variable {
 private:
-	int index;
 	string varName;
 	vector<Statement> modifyStmtLst;
 	vector<Statement> useStmtLst;
 public:
 	Variable();
-	Variable(int ind, string name);
+	Variable(string name);
+	string getName();
+	bool equals(Variable& v);
 	void addModifyStmt(Statement stmt);
 	void addUseStmt(Statement stmt);
 };

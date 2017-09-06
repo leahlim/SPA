@@ -16,8 +16,25 @@ void PKB::addProcedure(Procedure& proc) {
 	currentStmtContainer.push(&proc);
 }
 
+/*
+Add a Variable object into the PKB.
+Ignore if a Variable object with the same name has
+already been added into the PKB earlier.
+*/
 void PKB::addVariable(Variable &var) {
-	allVariables.push_back(var);
+	if (allVariables.empty()) {
+		allVariables.push_back(var);
+	}
+	else {
+		bool alrAdded = false;
+		for (Variable& v : allVariables) {
+			if (v.equals(var)) {
+				alrAdded = true;
+				break;
+			}
+		}
+		if (!alrAdded) allVariables.push_back(var);
+	}
 }
 
 void PKB::addStatement(Statement &stmt) {
