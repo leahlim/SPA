@@ -1,10 +1,6 @@
-#include <vector>
-using namespace std;
-
 #include "stdafx.h"
-#include <CppUnitTest.h>
-#include "TNode.h"
-#include "PKB.h"
+#include "CppUnitTest.h"
+#include "../source/PKB/PKB.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -29,6 +25,8 @@ namespace UnitTesting
 				//Line number - used if there is no PDB file:
 				LINE_INFO()
 			);
+
+			return;
 		}
 
 	};

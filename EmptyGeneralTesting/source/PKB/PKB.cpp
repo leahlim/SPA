@@ -6,6 +6,11 @@ using namespace std;
 /*
 Represents a parsed SIMPLE program
 */
+
+PKB::PKB() {
+
+}
+
 void PKB::addProcedure(Procedure& proc) {
 	allProcedures.push_back(proc);
 	currentStmtContainer.push(&proc);

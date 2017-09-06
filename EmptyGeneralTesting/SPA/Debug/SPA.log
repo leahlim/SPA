@@ -1,5 +1,4 @@
-﻿  TNode.cpp
-  Variable.cpp
+﻿  Variable.cpp
   StatementList.cpp
   StatementContainer.cpp
   Statement.cpp

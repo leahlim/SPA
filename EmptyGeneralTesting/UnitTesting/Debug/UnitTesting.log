@@ -1,14 +1,5 @@
 ﻿  stdafx.cpp
   TestAST.cpp
-c:\users\le minh phuc\documents\spa\emptygeneraltesting\unittesting\testast.cpp(26): error C2039: 'follow': is not a member of 'PKB'
-  c:\users\le minh phuc\documents\spa\emptygeneraltesting\source\pkb.h(15): note: see declaration of 'PKB'
-c:\users\le minh phuc\documents\spa\emptygeneraltesting\unittesting\testast.cpp(31): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(178): note: could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(172): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(166): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(159): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(153): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(147): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(140): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(float,float,float,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\program files (x86)\microsoft visual studio 14.0\vc\unittest\include\cppunittestassert.h(133): note: or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(double,double,double,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-  c:\users\le minh phuc\documents\spa\emptygeneraltesting\unittesting\testast.cpp(31): note: while trying to match the argument list '(int, const wchar_t [18], Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+     Creating library C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\UnitTesting.lib and object C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\UnitTesting.exp
+  UnitTesting.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\UnitTesting.dll
+  UnitTesting.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\UnitTesting.pdb (Full PDB)
