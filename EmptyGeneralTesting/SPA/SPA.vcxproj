@@ -20,6 +20,16 @@
     <ClCompile Include="..\source\PKB\StatementContainer.cpp" />
     <ClCompile Include="..\source\PKB\StatementList.cpp" />
     <ClCompile Include="..\source\PKB\Variable.cpp" />
+    <ClCompile Include="..\source\QPS\ParameterNode[2].cpp" />
+    <ClCompile Include="..\source\QPS\PatternNode[1].cpp" />
+    <ClCompile Include="..\source\QPS\QueryEvaluator.cpp" />
+    <ClCompile Include="..\source\QPS\QueryNode[1].cpp" />
+    <ClCompile Include="..\source\QPS\QueryParser[1].cpp" />
+    <ClCompile Include="..\source\QPS\QueryResultProjector.cpp" />
+    <ClCompile Include="..\source\QPS\QueryTree[1].cpp" />
+    <ClCompile Include="..\source\QPS\Result.cpp" />
+    <ClCompile Include="..\source\QPS\Synonyms[1].cpp" />
+    <ClCompile Include="..\source\QPS\SyntaticData[1].cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\source\PKB\AssignStatement.h" />
@@ -31,6 +41,18 @@
     <ClInclude Include="..\source\PKB\StatementList.h" />
     <ClInclude Include="..\source\PKB\Variable.h" />
     <ClInclude Include="..\source\PKB\WhileStatement.h" />
+    <ClInclude Include="..\source\QPS\ParameterNode[1].h" />
+    <ClInclude Include="..\source\QPS\PatternNode[1].h" />
+    <ClInclude Include="..\source\QPS\QueryEvaluator.h" />
+    <ClInclude Include="..\source\QPS\QueryNode[1].h" />
+    <ClInclude Include="..\source\QPS\QueryObject[1].h" />
+    <ClInclude Include="..\source\QPS\QueryParser[1].h" />
+    <ClInclude Include="..\source\QPS\QueryResultProjector.h" />
+    <ClInclude Include="..\source\QPS\QueryTree[1].h" />
+    <ClInclude Include="..\source\QPS\Result.h" />
+    <ClInclude Include="..\source\QPS\Synonyms[1].h" />
+    <ClInclude Include="..\source\QPS\SyntaticData[1].h" />
+    <ClInclude Include="..\source\QPS\SyntaticType[1].h" />
     <ClInclude Include="Parser.h" />
   </ItemGroup>
   <ItemGroup>

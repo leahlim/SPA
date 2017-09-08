@@ -1,11 +1,24 @@
-﻿  Variable.cpp
-  StatementList.cpp
-  StatementContainer.cpp
-  Statement.cpp
+﻿  SyntaticData[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\syntaticdata[1].cpp(12): fatal error C1083: Cannot open include file: 'SyntaticType.h': No such file or directory
+  Synonyms[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\synonyms[1].cpp(1): fatal error C1083: Cannot open include file: 'Synonyms.h': No such file or directory
+  QueryTree[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\querytree[1].cpp(11): fatal error C1083: Cannot open include file: 'QueryTree.h': No such file or directory
+  QueryResultProjector.cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\queryresultprojector.cpp(2): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  QueryParser[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\queryparser[1].cpp(14): fatal error C1083: Cannot open include file: 'QueryParser.h': No such file or directory
+  QueryNode[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\querynode[1].cpp(11): fatal error C1083: Cannot open include file: 'ParameterNode.h': No such file or directory
+  QueryEvaluator.cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\queryevaluator.h(7): fatal error C1083: Cannot open include file: 'QueryObject.h': No such file or directory
+  PatternNode[1].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\patternnode[1].cpp(12): fatal error C1083: Cannot open include file: 'ParameterNode.h': No such file or directory
+  ParameterNode[2].cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\qps\parameternode[2].cpp(12): fatal error C1083: Cannot open include file: 'ParameterNode.h': No such file or directory
   Procedure.cpp
-  PKB.cpp
-  Expression.cpp
-  Parser.cpp
-  DesignExtractor.cpp
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\pkb\procedure.cpp(6): error C2512: 'StatementList': no appropriate default constructor available
+  c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\pkb\statementlist.h(7): note: see declaration of 'StatementList'
+c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\pkb\procedure.cpp(11): error C2664: 'void StatementList::addStatement(int)': cannot convert argument 1 from 'Statement' to 'int'
+  c:\users\leah\onedrive\nus\y3 sem 1\cs3201+cs3202\spa\emptygeneraltesting\source\pkb\procedure.cpp(11): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   Generating Code...
-  SPA.vcxproj -> C:\Users\Le Minh Phuc\Documents\SPA\EmptyGeneralTesting\Debug\SPA.lib
